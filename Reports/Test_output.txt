@@ -1,0 +1,1634 @@
+----------------------------------------------------------Test Outputs for First-Come, First-Serve Scheduling-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+1
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 13.0    average waiting time: 2.6
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 26.0    average waiting time: 5.2
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 39.0    average waiting time: 7.8
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 52.0    average waiting time: 10.4
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 65.0    average waiting time: 13.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 6.0    average turnaround time: 6.0   total waiting time: 78.0    average waiting time: 83.0
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 7.0    average turnaround time: 7.0   total waiting time: 91.0    average waiting time: 96.0
+
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 8.0    average turnaround time: 8.0   total waiting time: 104.0    average waiting time: 109.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 111.0    average waiting time: 27.75
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 118.0    average waiting time: 29.5
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 11.0    average turnaround time: 5.5   total waiting time: 125.0    average waiting time: 31.25
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 12.0    average turnaround time: 6.0   total waiting time: 132.0    average waiting time: 33.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 13.0    average turnaround time: 6.5   total waiting time: 139.0    average waiting time: 34.75
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 14.0    average turnaround time: 7.0   total waiting time: 146.0    average waiting time: 77.0
+
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 15.0    average turnaround time: 7.5   total waiting time: 153.0    average waiting time: 80.5
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 156.0    average waiting time: 52.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 159.0    average waiting time: 53.0
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 57.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 19.0    average turnaround time: 6.333333333333333   total waiting time: 184.0    average waiting time: 30.666666666666668
+
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 6.666666666666667   total waiting time: 206.0    average waiting time: 74.66666666666667
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 21.0    average turnaround time: 5.25   total waiting time: 225.0    average waiting time: 45.0
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 22.0    average turnaround time: 5.5   total waiting time: 244.0    average waiting time: 48.8
+
+This process is done!
+Process 4       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 23.0    average turnaround time: 5.75   total waiting time: 263.0    average waiting time: 70.75
+
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 24.0    average turnaround time: 6.0   total waiting time: 282.0    average waiting time: 75.5
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 25.0    average turnaround time: 5.0   total waiting time: 295.0    average waiting time: 73.75
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 26.0    average turnaround time: 5.2   total waiting time: 308.0    average waiting time: 77.0
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 27.0    average turnaround time: 5.4   total waiting time: 321.0    average waiting time: 80.25
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 28.0    average turnaround time: 5.6   total waiting time: 334.0    average waiting time: 70.8
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 29.0    average turnaround time: 5.8   total waiting time: 347.0    average waiting time: 73.4
+
+This process is done!
+Process 5       priority: 4    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 30.0    average turnaround time: 6.0   total waiting time: 360.0    average waiting time: 76.0
+
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 31.0    average turnaround time: 6.2   total waiting time: 373.0    average waiting time: 78.6
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 32.0    average turnaround time: 5.333333333333333   total waiting time: 378.0    average waiting time: 126.0
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 33.0    average turnaround time: 5.5   total waiting time: 383.0    average waiting time: 127.66666666666667
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 5.666666666666667   total waiting time: 388.0    average waiting time: 129.33333333333334
+New process is born! Process 9       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+New process is born! Process 10       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+New process is born! Process 11       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+New processes arrive! Process 9       priority: 0    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+New processes arrive! Process 10       priority: 1    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+New processes arrive! Process 11       priority: 2    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 393.0    average waiting time: 131.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 36.0    average turnaround time: 6.0   total waiting time: 412.0    average waiting time: 68.66666666666667
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 37.0    average turnaround time: 6.166666666666667   total waiting time: 431.0    average waiting time: 77.83333333333333
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 38.0    average turnaround time: 6.333333333333333   total waiting time: 450.0    average waiting time: 81.0
+
+This process is done!
+Process 6       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 39.0    average turnaround time: 6.5   total waiting time: 469.0    average waiting time: 84.16666666666667
+
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 40.0    average turnaround time: 6.666666666666667   total waiting time: 488.0    average waiting time: 87.33333333333333
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 41.0    average turnaround time: 5.857142857142857   total waiting time: 502.0    average waiting time: 100.4
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 42.0    average turnaround time: 6.0   total waiting time: 516.0    average waiting time: 103.2
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 43.0    average turnaround time: 6.142857142857143   total waiting time: 530.0    average waiting time: 106.0
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 44.0    average turnaround time: 6.285714285714286   total waiting time: 544.0    average waiting time: 108.8
+
+This process is done!
+Process 7       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 45.0    average turnaround time: 6.428571428571429   total waiting time: 558.0    average waiting time: 111.6
+
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 46.0    average turnaround time: 6.571428571428571   total waiting time: 572.0    average waiting time: 86.71428571428571
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 47.0    average turnaround time: 5.875   total waiting time: 583.0    average waiting time: 145.75
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 48.0    average turnaround time: 6.0   total waiting time: 594.0    average waiting time: 148.5
+
+This process is done!
+Process 8       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 49.0    average turnaround time: 6.125   total waiting time: 605.0    average waiting time: 151.25
+
+
+This process is running!
+Process 9       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 50.0    average turnaround time: 6.25   total waiting time: 616.0    average waiting time: 81.0
+
+This process is running!
+Process 9       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 51.0    average turnaround time: 5.666666666666667   total waiting time: 621.0    average waiting time: 207.0
+New process is born! Process 12       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+New process is born! Process 13       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+New process is born! Process 14       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+New processes arrive! Process 12       priority: 0    state: READY   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+New processes arrive! Process 13       priority: 1    state: READY   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+New processes arrive! Process 14       priority: 2    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+
+This process is running!
+Process 9       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 626.0    average waiting time: 208.66666666666666
+
+This process is running!
+Process 9       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 53.0    average turnaround time: 5.888888888888889   total waiting time: 641.0    average waiting time: 106.83333333333333
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 54.0    average turnaround time: 6.0   total waiting time: 656.0    average waiting time: 109.33333333333333
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 55.0    average turnaround time: 6.111111111111111   total waiting time: 671.0    average waiting time: 111.83333333333333
+
+This process is done!
+Process 9       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 56.0    average turnaround time: 6.222222222222222   total waiting time: 686.0    average waiting time: 82.22222222222223
+
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 57.0    average turnaround time: 6.333333333333333   total waiting time: 701.0    average waiting time: 83.88888888888889
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 58.0    average turnaround time: 5.8   total waiting time: 711.0    average waiting time: 142.2
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 59.0    average turnaround time: 5.9   total waiting time: 721.0    average waiting time: 144.2
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 60.0    average turnaround time: 6.0   total waiting time: 731.0    average waiting time: 78.1
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 61.0    average turnaround time: 6.1   total waiting time: 741.0    average waiting time: 79.1
+
+This process is done!
+Process 10       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 62.0    average turnaround time: 6.2   total waiting time: 751.0    average waiting time: 80.1
+
+
+Process finished with exit code -1
+
+
+--------------------------------------------------------------------Test Outputs for Shortest-Job-First Scheduling------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+2
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 5.0    average waiting time: 1.6666666666666667
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 10.0    average waiting time: 3.3333333333333335
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 15.0    average waiting time: 5.0
+
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 20.0    average waiting time: 23.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 5.0    average turnaround time: 2.5   total waiting time: 20.0    average waiting time: 10.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 6.0    average turnaround time: 3.0   total waiting time: 20.0    average waiting time: 10.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 7.0    average turnaround time: 3.5   total waiting time: 20.0    average waiting time: 12.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 20.0    average waiting time: 12.0
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 20.0    average waiting time: 12.0
+
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 20.0    average waiting time: 12.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 11.0    average turnaround time: 3.6666666666666665   total waiting time: 20.0    average waiting time: 20.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 12.0    average turnaround time: 4.0   total waiting time: 20.0    average waiting time: 20.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 13.0    average turnaround time: 4.333333333333333   total waiting time: 20.0    average waiting time: 20.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 14.0    average turnaround time: 4.666666666666667   total waiting time: 20.0    average waiting time: 20.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 20.0    average waiting time: 20.0
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 20.0    average waiting time: 7.666666666666667
+
+No process remaining.
+But wait! More is coming!
+New process is born! Process 4       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New process is born! Process 5       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New process is born! Process 6       priority: 2    state: NEW   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New process is born! Process 7       priority: 3    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New process is born! Process 8       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New processes arrive! Process 4       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New processes arrive! Process 5       priority: 1    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New processes arrive! Process 6       priority: 2    state: READY   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New processes arrive! Process 7       priority: 3    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+New processes arrive! Process 8       priority: 4    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+
+This process is running!
+Process 6       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 20.0    average waiting time: 7.666666666666667
+
+This process is waiting for IO!
+Process 6       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 18.0    average turnaround time: 4.5   total waiting time: 32.0    average waiting time: 6.4
+
+This process is done!
+Process 6       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 19.0    average turnaround time: 4.75   total waiting time: 44.0    average waiting time: 8.8
+
+
+This process is running!
+Process 8       priority: 4    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 5.0   total waiting time: 56.0    average waiting time: 19.0
+
+This process is running!
+Process 8       priority: 4    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 21.0    average turnaround time: 4.2   total waiting time: 66.0    average waiting time: 16.5
+
+This process is waiting for IO!
+Process 8       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 22.0    average turnaround time: 4.4   total waiting time: 76.0    average waiting time: 19.0
+
+This process is done!
+Process 8       priority: 4    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 23.0    average turnaround time: 4.6   total waiting time: 86.0    average waiting time: 21.5
+
+
+This process is running!
+Process 4       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 24.0    average turnaround time: 4.8   total waiting time: 96.0    average waiting time: 23.2
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 25.0    average turnaround time: 4.166666666666667   total waiting time: 101.0    average waiting time: 33.666666666666664
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 26.0    average turnaround time: 4.333333333333333   total waiting time: 106.0    average waiting time: 35.333333333333336
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 27.0    average turnaround time: 4.5   total waiting time: 111.0    average waiting time: 21.5
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 28.0    average turnaround time: 4.666666666666667   total waiting time: 116.0    average waiting time: 22.333333333333332
+
+This process is done!
+Process 4       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 29.0    average turnaround time: 4.833333333333333   total waiting time: 121.0    average waiting time: 23.166666666666668
+
+
+This process is running!
+Process 5       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 30.0    average turnaround time: 5.0   total waiting time: 126.0    average waiting time: 24.0
+
+This process is waiting for IO!
+Process 5       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 31.0    average turnaround time: 4.428571428571429   total waiting time: 126.0    average waiting time: 63.0
+
+This process is waiting for IO!
+Process 5       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 32.0    average turnaround time: 4.571428571428571   total waiting time: 126.0    average waiting time: 63.0
+
+This process is waiting for IO!
+Process 5       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 33.0    average turnaround time: 4.714285714285714   total waiting time: 126.0    average waiting time: 20.0
+New process is born! Process 9       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New process is born! Process 10       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New process is born! Process 11       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New process is born! Process 12       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New process is born! Process 13       priority: 4    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New processes arrive! Process 9       priority: 0    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New processes arrive! Process 10       priority: 1    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New processes arrive! Process 11       priority: 2    state: READY   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New processes arrive! Process 12       priority: 3    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+New processes arrive! Process 13       priority: 4    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+
+This process is waiting for IO!
+Process 5       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 126.0    average waiting time: 20.0
+
+This process is done!
+Process 5       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 35.0    average turnaround time: 5.0   total waiting time: 152.0    average waiting time: 28.714285714285715
+
+
+This process is running!
+Process 7       priority: 3    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 36.0    average turnaround time: 5.142857142857143   total waiting time: 178.0    average waiting time: 32.42857142857143
+
+This process is running!
+Process 7       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 37.0    average turnaround time: 4.625   total waiting time: 199.0    average waiting time: 33.166666666666664
+
+This process is waiting for IO!
+Process 7       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 38.0    average turnaround time: 4.75   total waiting time: 220.0    average waiting time: 36.666666666666664
+
+This process is waiting for IO!
+Process 7       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 39.0    average turnaround time: 4.875   total waiting time: 241.0    average waiting time: 40.166666666666664
+
+This process is waiting for IO!
+Process 7       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 40.0    average turnaround time: 5.0   total waiting time: 262.0    average waiting time: 38.75
+
+This process is done!
+Process 7       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 41.0    average turnaround time: 5.125   total waiting time: 283.0    average waiting time: 41.375
+
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 42.0    average turnaround time: 5.25   total waiting time: 304.0    average waiting time: 44.0
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 43.0    average turnaround time: 4.777777777777778   total waiting time: 319.0    average waiting time: 63.8
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 44.0    average turnaround time: 4.888888888888889   total waiting time: 334.0    average waiting time: 66.8
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 45.0    average turnaround time: 5.0   total waiting time: 349.0    average waiting time: 69.8
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 46.0    average turnaround time: 5.111111111111111   total waiting time: 364.0    average waiting time: 72.8
+
+This process is done!
+Process 10       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 47.0    average turnaround time: 5.222222222222222   total waiting time: 379.0    average waiting time: 75.8
+
+
+This process is running!
+Process 11       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 48.0    average turnaround time: 5.333333333333333   total waiting time: 394.0    average waiting time: 48.77777777777778
+
+Process finished with exit code -1
+
+-----------------------------------------------------------Test Outputs for Shortest-Remaining-Time-First Scheduling--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+3
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 17.0    average waiting time: 3.4
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 34.0    average waiting time: 6.8
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 51.0    average waiting time: 10.2
+
+This process is done!
+Process 5       priority: 4    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 68.0    average waiting time: 73.0
+
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 85.0    average waiting time: 90.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 6.0    average turnaround time: 3.0   total waiting time: 96.0    average waiting time: 24.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 7.0    average turnaround time: 3.5   total waiting time: 107.0    average waiting time: 26.75
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 118.0    average waiting time: 29.5
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 129.0    average waiting time: 32.25
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 140.0    average waiting time: 35.0
+
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 11.0    average turnaround time: 5.5   total waiting time: 151.0    average waiting time: 79.5
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 12.0    average turnaround time: 4.0   total waiting time: 156.0    average waiting time: 52.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 13.0    average turnaround time: 4.333333333333333   total waiting time: 161.0    average waiting time: 53.666666666666664
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 14.0    average turnaround time: 4.666666666666667   total waiting time: 166.0    average waiting time: 55.333333333333336
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 171.0    average waiting time: 57.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 176.0    average waiting time: 58.666666666666664
+
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 181.0    average waiting time: 63.333333333333336
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 18.0    average turnaround time: 4.5   total waiting time: 198.0    average waiting time: 39.6
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 19.0    average turnaround time: 4.75   total waiting time: 215.0    average waiting time: 43.0
+
+This process is done!
+Process 6       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 20.0    average turnaround time: 5.0   total waiting time: 232.0    average waiting time: 46.4
+
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 21.0    average turnaround time: 5.25   total waiting time: 249.0    average waiting time: 67.25
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 22.0    average turnaround time: 4.4   total waiting time: 263.0    average waiting time: 65.75
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 23.0    average turnaround time: 4.6   total waiting time: 277.0    average waiting time: 69.25
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 24.0    average turnaround time: 4.8   total waiting time: 291.0    average waiting time: 72.75
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 25.0    average turnaround time: 5.0   total waiting time: 305.0    average waiting time: 76.25
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 26.0    average turnaround time: 5.2   total waiting time: 319.0    average waiting time: 79.75
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 27.0    average turnaround time: 5.4   total waiting time: 333.0    average waiting time: 70.6
+
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 28.0    average turnaround time: 5.6   total waiting time: 347.0    average waiting time: 73.4
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 29.0    average turnaround time: 4.833333333333333   total waiting time: 355.0    average waiting time: 118.33333333333333
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 30.0    average turnaround time: 5.0   total waiting time: 363.0    average waiting time: 121.0
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 31.0    average turnaround time: 5.166666666666667   total waiting time: 371.0    average waiting time: 123.66666666666667
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 32.0    average turnaround time: 5.333333333333333   total waiting time: 379.0    average waiting time: 126.33333333333333
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 33.0    average turnaround time: 5.5   total waiting time: 387.0    average waiting time: 67.5
+
+This process is done!
+Process 4       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 34.0    average turnaround time: 5.666666666666667   total waiting time: 395.0    average waiting time: 68.83333333333333
+New process is born! Process 9       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New process is born! Process 10       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New process is born! Process 11       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New process is born! Process 12       priority: 3    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New process is born! Process 13       priority: 4    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New processes arrive! Process 9       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New processes arrive! Process 10       priority: 1    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New processes arrive! Process 11       priority: 2    state: READY   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New processes arrive! Process 12       priority: 3    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+New processes arrive! Process 13       priority: 4    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+
+This process is done!
+Process 4       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 403.0    average waiting time: 70.16666666666667
+
+
+This process is running!
+Process 9       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 36.0    average turnaround time: 6.0   total waiting time: 439.0    average waiting time: 54.875
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 37.0    average turnaround time: 5.285714285714286   total waiting time: 467.0    average waiting time: 66.71428571428571
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 38.0    average turnaround time: 5.428571428571429   total waiting time: 495.0    average waiting time: 70.71428571428571
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 39.0    average turnaround time: 5.571428571428571   total waiting time: 523.0    average waiting time: 81.71428571428571
+
+This process is waiting for IO!
+Process 9       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 40.0    average turnaround time: 5.714285714285714   total waiting time: 551.0    average waiting time: 85.71428571428571
+
+This process is done!
+Process 9       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 41.0    average turnaround time: 5.857142857142857   total waiting time: 579.0    average waiting time: 89.71428571428571
+
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 42.0    average turnaround time: 6.0   total waiting time: 607.0    average waiting time: 93.71428571428571
+
+This process is running!
+Process 10       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 43.0    average turnaround time: 5.375   total waiting time: 630.0    average waiting time: 105.0
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 44.0    average turnaround time: 5.5   total waiting time: 653.0    average waiting time: 108.83333333333333
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 45.0    average turnaround time: 5.625   total waiting time: 676.0    average waiting time: 112.66666666666667
+
+This process is waiting for IO!
+Process 10       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 46.0    average turnaround time: 5.75   total waiting time: 699.0    average waiting time: 93.375
+
+This process is done!
+Process 10       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 47.0    average turnaround time: 5.875   total waiting time: 722.0    average waiting time: 96.25
+
+
+This process is running!
+Process 12       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 48.0    average turnaround time: 6.0   total waiting time: 745.0    average waiting time: 99.125
+
+This process is waiting for IO!
+Process 12       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 49.0    average turnaround time: 5.444444444444445   total waiting time: 763.0    average waiting time: 152.6
+
+This process is waiting for IO!
+Process 12       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 50.0    average turnaround time: 5.555555555555555   total waiting time: 781.0    average waiting time: 156.2
+
+This process is waiting for IO!
+Process 12       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 51.0    average turnaround time: 5.666666666666667   total waiting time: 799.0    average waiting time: 93.77777777777777
+New process is born! Process 14       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+New process is born! Process 15       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+New process is born! Process 16       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+New processes arrive! Process 14       priority: 0    state: READY   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+New processes arrive! Process 15       priority: 1    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+New processes arrive! Process 16       priority: 2    state: READY   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+
+This process is waiting for IO!
+Process 12       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 817.0    average waiting time: 95.77777777777777
+
+This process is done!
+Process 12       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 53.0    average turnaround time: 5.888888888888889   total waiting time: 849.0    average waiting time: 106.125
+
+
+This process is running!
+Process 14       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 54.0    average turnaround time: 6.0   total waiting time: 881.0    average waiting time: 105.88888888888889
+
+This process is waiting for IO!
+Process 14       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 55.0    average turnaround time: 5.5   total waiting time: 908.0    average waiting time: 129.71428571428572
+
+Process finished with exit code -1
+
+
+--------------------------------------------------------------Test Outputs for Non-preemptive Priority Scheduling-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+4
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 14.0    average waiting time: 2.8
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 28.0    average waiting time: 5.6
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 42.0    average waiting time: 8.4
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 56.0    average waiting time: 11.2
+
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 70.0    average waiting time: 75.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 6.0    average turnaround time: 3.0   total waiting time: 80.0    average waiting time: 20.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 7.0    average turnaround time: 3.5   total waiting time: 90.0    average waiting time: 22.5
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 100.0    average waiting time: 25.0
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 110.0    average waiting time: 27.5
+
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 120.0    average waiting time: 64.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 11.0    average turnaround time: 3.6666666666666665   total waiting time: 125.0    average waiting time: 41.666666666666664
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 12.0    average turnaround time: 4.0   total waiting time: 130.0    average waiting time: 43.333333333333336
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 13.0    average turnaround time: 4.333333333333333   total waiting time: 135.0    average waiting time: 45.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 14.0    average turnaround time: 4.666666666666667   total waiting time: 140.0    average waiting time: 46.666666666666664
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 145.0    average waiting time: 48.333333333333336
+
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 150.0    average waiting time: 53.0
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New process is born! Process 9       priority: 3    state: NEW   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New process is born! Process 10       priority: 4    state: NEW   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New processes arrive! Process 9       priority: 3    state: READY   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+New processes arrive! Process 10       priority: 4    state: READY   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 17.0    average turnaround time: 4.25   total waiting time: 150.0    average waiting time: 75.0
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 4.5   total waiting time: 174.0    average waiting time: 24.857142857142858
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 19.0    average turnaround time: 4.75   total waiting time: 198.0    average waiting time: 28.285714285714285
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 20.0    average turnaround time: 5.0   total waiting time: 222.0    average waiting time: 62.5
+
+This process is done!
+Process 4       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 21.0    average turnaround time: 5.25   total waiting time: 246.0    average waiting time: 68.5
+
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 22.0    average turnaround time: 5.5   total waiting time: 270.0    average waiting time: 74.5
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 23.0    average turnaround time: 4.6   total waiting time: 288.0    average waiting time: 48.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 24.0    average turnaround time: 4.8   total waiting time: 306.0    average waiting time: 51.0
+
+This process is done!
+Process 6       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 25.0    average turnaround time: 5.0   total waiting time: 324.0    average waiting time: 54.0
+
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 26.0    average turnaround time: 5.2   total waiting time: 342.0    average waiting time: 74.4
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 27.0    average turnaround time: 4.5   total waiting time: 357.0    average waiting time: 71.4
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 28.0    average turnaround time: 4.666666666666667   total waiting time: 372.0    average waiting time: 74.4
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 29.0    average turnaround time: 4.833333333333333   total waiting time: 387.0    average waiting time: 77.4
+
+This process is done!
+Process 7       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 30.0    average turnaround time: 5.0   total waiting time: 402.0    average waiting time: 80.4
+
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 31.0    average turnaround time: 5.166666666666667   total waiting time: 417.0    average waiting time: 74.5
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 32.0    average turnaround time: 4.571428571428571   total waiting time: 428.0    average waiting time: 107.0
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 33.0    average turnaround time: 4.714285714285714   total waiting time: 439.0    average waiting time: 109.75
+New process is born! Process 11       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+New process is born! Process 12       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+New process is born! Process 13       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+New processes arrive! Process 11       priority: 0    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+New processes arrive! Process 12       priority: 1    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+New processes arrive! Process 13       priority: 2    state: READY   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 450.0    average waiting time: 112.5
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 35.0    average turnaround time: 5.0   total waiting time: 480.0    average waiting time: 68.57142857142857
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 36.0    average turnaround time: 5.142857142857143   total waiting time: 510.0    average waiting time: 72.85714285714286
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 37.0    average turnaround time: 5.285714285714286   total waiting time: 540.0    average waiting time: 77.14285714285714
+
+This process is waiting for IO!
+Process 11       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 38.0    average turnaround time: 5.428571428571429   total waiting time: 570.0    average waiting time: 81.42857142857143
+
+This process is waiting for IO!
+Process 11       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 39.0    average turnaround time: 5.571428571428571   total waiting time: 600.0    average waiting time: 85.71428571428571
+
+This process is waiting for IO!
+Process 11       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 40.0    average turnaround time: 5.714285714285714   total waiting time: 630.0    average waiting time: 97.0
+
+This process is waiting for IO!
+Process 11       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 41.0    average turnaround time: 5.857142857142857   total waiting time: 660.0    average waiting time: 101.28571428571429
+
+This process is done!
+Process 11       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 42.0    average turnaround time: 6.0   total waiting time: 690.0    average waiting time: 105.57142857142857
+
+
+This process is running!
+Process 12       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 43.0    average turnaround time: 6.142857142857143   total waiting time: 720.0    average waiting time: 109.85714285714286
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 44.0    average turnaround time: 5.5   total waiting time: 742.0    average waiting time: 123.66666666666667
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 45.0    average turnaround time: 5.625   total waiting time: 764.0    average waiting time: 127.33333333333333
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 46.0    average turnaround time: 5.75   total waiting time: 786.0    average waiting time: 104.25
+
+This process is done!
+Process 12       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 47.0    average turnaround time: 5.875   total waiting time: 808.0    average waiting time: 107.0
+
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 48.0    average turnaround time: 6.0   total waiting time: 830.0    average waiting time: 109.75
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 49.0    average turnaround time: 5.444444444444445   total waiting time: 848.0    average waiting time: 169.6
+
+Process finished with exit code -1
+
+--------------------------------------------------------------------------Test for Preemptive Priority Scheduling------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+5
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 17.0    average waiting time: 3.4
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 34.0    average waiting time: 6.8
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 51.0    average waiting time: 56.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 68.0    average waiting time: 73.0
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 85.0    average waiting time: 90.0
+
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 6.0    average turnaround time: 6.0   total waiting time: 102.0    average waiting time: 107.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 7.0    average turnaround time: 3.5   total waiting time: 112.0    average waiting time: 28.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 122.0    average waiting time: 30.5
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 132.0    average waiting time: 33.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 142.0    average waiting time: 35.5
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 11.0    average turnaround time: 5.5   total waiting time: 152.0    average waiting time: 38.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 12.0    average turnaround time: 6.0   total waiting time: 162.0    average waiting time: 85.0
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 13.0    average turnaround time: 6.5   total waiting time: 172.0    average waiting time: 90.0
+
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 14.0    average turnaround time: 7.0   total waiting time: 182.0    average waiting time: 95.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 187.0    average waiting time: 62.333333333333336
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 192.0    average waiting time: 64.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 197.0    average waiting time: 65.66666666666667
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New process is born! Process 9       priority: 3    state: NEW   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New process is born! Process 10       priority: 4    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New processes arrive! Process 9       priority: 3    state: READY   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+New processes arrive! Process 10       priority: 4    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 202.0    average waiting time: 67.33333333333333
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 19.0    average turnaround time: 6.333333333333333   total waiting time: 233.0    average waiting time: 29.125
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 6.666666666666667   total waiting time: 264.0    average waiting time: 33.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 21.0    average turnaround time: 7.0   total waiting time: 295.0    average waiting time: 106.33333333333333
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 22.0    average turnaround time: 7.333333333333333   total waiting time: 326.0    average waiting time: 116.66666666666667
+
+This process is done!
+Process 6       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 23.0    average turnaround time: 7.666666666666667   total waiting time: 357.0    average waiting time: 127.0
+
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 24.0    average turnaround time: 8.0   total waiting time: 388.0    average waiting time: 137.33333333333334
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 25.0    average turnaround time: 6.25   total waiting time: 414.0    average waiting time: 59.142857142857146
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 26.0    average turnaround time: 6.5   total waiting time: 440.0    average waiting time: 62.857142857142854
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 27.0    average turnaround time: 6.75   total waiting time: 466.0    average waiting time: 123.5
+
+This process is done!
+Process 7       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 28.0    average turnaround time: 7.0   total waiting time: 492.0    average waiting time: 130.0
+
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 29.0    average turnaround time: 7.25   total waiting time: 518.0    average waiting time: 136.5
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 30.0    average turnaround time: 6.0   total waiting time: 540.0    average waiting time: 90.0
+
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 31.0    average turnaround time: 6.2   total waiting time: 562.0    average waiting time: 118.4
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 32.0    average turnaround time: 5.333333333333333   total waiting time: 579.0    average waiting time: 115.8
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 33.0    average turnaround time: 5.5   total waiting time: 596.0    average waiting time: 119.2
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 34.0    average turnaround time: 5.666666666666667   total waiting time: 613.0    average waiting time: 122.6
+New process is born! Process 11       priority: 0    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New process is born! Process 12       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New process is born! Process 13       priority: 2    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New process is born! Process 14       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New process is born! Process 15       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New processes arrive! Process 11       priority: 0    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New processes arrive! Process 12       priority: 1    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New processes arrive! Process 13       priority: 2    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New processes arrive! Process 14       priority: 3    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+New processes arrive! Process 15       priority: 4    state: READY   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 35.0    average turnaround time: 5.833333333333333   total waiting time: 630.0    average waiting time: 110.0
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 36.0    average turnaround time: 6.0   total waiting time: 675.0    average waiting time: 67.5
+
+This process is running!
+Process 11       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 37.0    average turnaround time: 6.166666666666667   total waiting time: 720.0    average waiting time: 72.0
+
+This process is waiting for IO!
+Process 11       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 38.0    average turnaround time: 6.333333333333333   total waiting time: 765.0    average waiting time: 76.5
+
+This process is done!
+Process 11       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 39.0    average turnaround time: 6.5   total waiting time: 810.0    average waiting time: 81.0
+
+
+This process is running!
+Process 12       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 40.0    average turnaround time: 6.666666666666667   total waiting time: 855.0    average waiting time: 152.5
+
+This process is running!
+Process 12       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 41.0    average turnaround time: 5.857142857142857   total waiting time: 896.0    average waiting time: 99.55555555555556
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 42.0    average turnaround time: 6.0   total waiting time: 937.0    average waiting time: 104.11111111111111
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 43.0    average turnaround time: 6.142857142857143   total waiting time: 978.0    average waiting time: 108.66666666666667
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 44.0    average turnaround time: 6.285714285714286   total waiting time: 1019.0    average waiting time: 154.57142857142858
+
+This process is waiting for IO!
+Process 12       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 45.0    average turnaround time: 6.428571428571429   total waiting time: 1060.0    average waiting time: 160.42857142857142
+
+This process is done!
+Process 12       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 46.0    average turnaround time: 6.571428571428571   total waiting time: 1101.0    average waiting time: 166.28571428571428
+
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 47.0    average turnaround time: 6.714285714285714   total waiting time: 1142.0    average waiting time: 172.14285714285714
+
+This process is done!
+Process 8       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 48.0    average turnaround time: 6.0   total waiting time: 1177.0    average waiting time: 147.125
+
+
+This process is running!
+Process 13       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 49.0    average turnaround time: 6.125   total waiting time: 1212.0    average waiting time: 159.5
+
+This process is waiting for IO!
+Process 13       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 50.0    average turnaround time: 5.555555555555555   total waiting time: 1242.0    average waiting time: 177.42857142857142
+
+This process is waiting for IO!
+Process 13       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 51.0    average turnaround time: 5.666666666666667   total waiting time: 1272.0    average waiting time: 181.71428571428572
+New process is born! Process 16       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New process is born! Process 17       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New process is born! Process 18       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New process is born! Process 19       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New process is born! Process 20       priority: 4    state: NEW   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New processes arrive! Process 16       priority: 0    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New processes arrive! Process 17       priority: 1    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New processes arrive! Process 18       priority: 2    state: READY   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New processes arrive! Process 19       priority: 3    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+New processes arrive! Process 20       priority: 4    state: READY   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+
+This process is running!
+Process 16       priority: 0    state: RUNNING   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 52.0    average turnaround time: 5.777777777777778   total waiting time: 1302.0    average waiting time: 151.66666666666666
+
+Process finished with exit code -1
+
+-----------------------------------------------------------------------Test Outputs for Preemptive Round-Robin Scheduling----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+6
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 17.0    average waiting time: 3.4
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 34.0    average waiting time: 6.8
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 51.0    average waiting time: 10.2
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 68.0    average waiting time: 13.6
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 85.0    average waiting time: 17.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 6.0    average turnaround time: 6.0   total waiting time: 102.0    average waiting time: 20.4
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 7.0    average turnaround time: 7.0   total waiting time: 119.0    average waiting time: 23.8
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 8.0    average turnaround time: 8.0   total waiting time: 136.0    average waiting time: 27.2
+
+This process is running!
+Process 5       priority: 4    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 9.0    average turnaround time: 9.0   total waiting time: 153.0    average waiting time: 30.6
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 10.0    average turnaround time: 10.0   total waiting time: 170.0    average waiting time: 34.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 11.0    average turnaround time: 11.0   total waiting time: 187.0    average waiting time: 37.4
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 12.0    average turnaround time: 12.0   total waiting time: 204.0    average waiting time: 40.8
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 13.0    average turnaround time: 13.0   total waiting time: 221.0    average waiting time: 44.2
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 14.0    average turnaround time: 14.0   total waiting time: 238.0    average waiting time: 47.6
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 15.0    average turnaround time: 15.0   total waiting time: 255.0    average waiting time: 51.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 16.0    average turnaround time: 16.0   total waiting time: 272.0    average waiting time: 54.4
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 17.0    average turnaround time: 17.0   total waiting time: 289.0    average waiting time: 57.8
+
+This process is running!
+Process 4       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 18.0   total waiting time: 306.0    average waiting time: 61.2
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 19.0    average turnaround time: 19.0   total waiting time: 323.0    average waiting time: 64.6
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New process is born! Process 9       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New process is born! Process 10       priority: 4    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New processes arrive! Process 9       priority: 3    state: READY   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+New processes arrive! Process 10       priority: 4    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 20.0    average turnaround time: 20.0   total waiting time: 340.0    average waiting time: 68.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 21.0    average turnaround time: 21.0   total waiting time: 382.0    average waiting time: 38.2
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 22.0    average turnaround time: 22.0   total waiting time: 424.0    average waiting time: 42.4
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 23.0    average turnaround time: 23.0   total waiting time: 466.0    average waiting time: 46.6
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 24.0    average turnaround time: 24.0   total waiting time: 508.0    average waiting time: 50.8
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 25.0    average turnaround time: 25.0   total waiting time: 550.0    average waiting time: 55.0
+
+This process is running!
+Process 8       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 26.0    average turnaround time: 26.0   total waiting time: 592.0    average waiting time: 59.2
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 4   IO time remained: 4    total time remained: 8.0  total turnaround time: 27.0    average turnaround time: 27.0   total waiting time: 634.0    average waiting time: 63.4
+
+This process is running!
+Process 10       priority: 4    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 28.0    average turnaround time: 28.0   total waiting time: 676.0    average waiting time: 67.6
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 29.0    average turnaround time: 29.0   total waiting time: 718.0    average waiting time: 71.8
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 30.0    average turnaround time: 30.0   total waiting time: 760.0    average waiting time: 76.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 31.0    average turnaround time: 31.0   total waiting time: 802.0    average waiting time: 80.2
+
+This process is waiting for IO!
+Process 4       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 32.0    average turnaround time: 32.0   total waiting time: 844.0    average waiting time: 84.4
+
+This process is waiting for IO!
+Process 5       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 33.0    average turnaround time: 33.0   total waiting time: 886.0    average waiting time: 88.6
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 34.0    average turnaround time: 34.0   total waiting time: 928.0    average waiting time: 92.8
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 35.0    average turnaround time: 35.0   total waiting time: 970.0    average waiting time: 97.0
+
+This process is waiting for IO!
+Process 8       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 36.0    average turnaround time: 36.0   total waiting time: 1012.0    average waiting time: 101.2
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 37.0    average turnaround time: 37.0   total waiting time: 1054.0    average waiting time: 105.4
+
+This process is waiting for IO!
+Process 10       priority: 4    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 38.0    average turnaround time: 38.0   total waiting time: 1096.0    average waiting time: 109.6
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 39.0    average turnaround time: 39.0   total waiting time: 1138.0    average waiting time: 113.8
+New process is born! Process 11       priority: 0    state: NEW   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+New process is born! Process 12       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+New process is born! Process 13       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+New processes arrive! Process 11       priority: 0    state: READY   CPU time remained: 4   IO time remained: 3    total time remained: 7.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+New processes arrive! Process 12       priority: 1    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+New processes arrive! Process 13       priority: 2    state: READY   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 40.0    average turnaround time: 40.0   total waiting time: 1180.0    average waiting time: 118.0
+
+This process is done!
+Process 4       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 41.0    average turnaround time: 41.0   total waiting time: 1239.0    average waiting time: 95.3076923076923
+
+Process finished with exit code -1
+
+--------------------------------------------------------------------Test Outputs for Multilevel Queue Scheduling-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+7
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+Emergent processes!
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 0.0    average waiting time: 1.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 6.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+
+Necessary processes!
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 7.0    average turnaround time: 7.0   total waiting time: 0.0    average waiting time: 1.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 11.0    average turnaround time: 5.5   total waiting time: 0.0    average waiting time: 0.0
+
+Necessary processes!
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 3    total time remained: 6.0  total turnaround time: 12.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 2.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 3    total time remained: 5.0  total turnaround time: 13.0    average turnaround time: 4.333333333333333   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 14.0    average turnaround time: 4.666666666666667   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 0.0    average waiting time: 1.0
+New process is born! Process 4       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+New process is born! Process 5       priority: 1    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+New process is born! Process 6       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+New processes arrive! Process 4       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+New processes arrive! Process 5       priority: 1    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+New processes arrive! Process 6       priority: 2    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+Emergent processes!
+
+This process is running!
+Process 4       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 0.0    average waiting time: 1.0
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 19.0    average turnaround time: 6.333333333333333   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 6.666666666666667   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 21.0    average turnaround time: 7.0   total waiting time: 0.0    average waiting time: 1.0
+
+This process is waiting for IO!
+Process 4       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 22.0    average turnaround time: 7.333333333333333   total waiting time: 0.0    average waiting time: 1.0
+
+This process is done!
+Process 4       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 23.0    average turnaround time: 7.666666666666667   total waiting time: 0.0    average waiting time: 1.0
+
+Necessary processes!
+
+This process is done!
+Process 4       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 24.0    average turnaround time: 8.0   total waiting time: 0.0    average waiting time: 1.0
+
+Necessary processes!
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 25.0    average turnaround time: 6.25   total waiting time: 11.0    average waiting time: 2.2
+
+Necessary processes!
+
+This process is running!
+Process 5       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 26.0    average turnaround time: 5.2   total waiting time: 17.0    average waiting time: 4.25
+
+This process is running!
+Process 5       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 27.0    average turnaround time: 4.5   total waiting time: 20.0    average waiting time: 6.666666666666667
+
+This process is waiting for IO!
+Process 5       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 28.0    average turnaround time: 4.666666666666667   total waiting time: 23.0    average waiting time: 7.666666666666667
+
+This process is done!
+Process 5       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 29.0    average turnaround time: 4.833333333333333   total waiting time: 26.0    average waiting time: 8.666666666666666
+
+Necessary processes!
+
+This process is running!
+Process 6       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 30.0    average turnaround time: 5.0   total waiting time: 29.0    average waiting time: 7.833333333333333
+
+This process is running!
+Process 6       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 31.0    average turnaround time: 4.428571428571429   total waiting time: 29.0    average waiting time: 14.5
+
+This process is waiting for IO!
+Process 6       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 32.0    average turnaround time: 4.571428571428571   total waiting time: 29.0    average waiting time: 14.5
+
+This process is done!
+Process 6       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 33.0    average turnaround time: 4.714285714285714   total waiting time: 29.0    average waiting time: 14.5
+New process is born! Process 7       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+New process is born! Process 8       priority: 1    state: NEW   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+New process is born! Process 9       priority: 2    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+New processes arrive! Process 7       priority: 0    state: READY   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+New processes arrive! Process 8       priority: 1    state: READY   CPU time remained: 4   IO time remained: 1    total time remained: 5.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+New processes arrive! Process 9       priority: 2    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+Emergent processes!
+
+This process is running!
+Process 7       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 34.0    average turnaround time: 4.857142857142857   total waiting time: 29.0    average waiting time: 6.142857142857143
+
+This process is waiting for IO!
+Process 7       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 35.0    average turnaround time: 5.0   total waiting time: 29.0    average waiting time: 29.0
+
+This process is done!
+Process 7       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 36.0    average turnaround time: 5.142857142857143   total waiting time: 29.0    average waiting time: 29.0
+
+Process finished with exit code -1
+
+----------------------------------------------------------------------------Test Outputs for Multilevel Queue Scheduling-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter the scheduling you wish to apply.
+Choices:
+1 for First-Come, First-Serve Scheduling
+2 for Shortest-Job-First Scheduling
+3 for Shortest-Remaining-Time-First Scheduling
+4 for Non-preemptive Priority Scheduling
+5 for Preemptive Priority Scheduling
+6 for Preemptive Round-Robin Scheduling
+7 for Multilevel Queue Scheduling
+8 for Multilevel Queue Scheduling
+
+8
+Hold on, the system is waiting for new process to be born!
+
+
+
+
+
+New process is born! Process 1       priority: 0    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 2       priority: 1    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 3       priority: 2    state: NEW   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 4       priority: 3    state: NEW   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New process is born! Process 5       priority: 4    state: NEW   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 1       priority: 0    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 2       priority: 1    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 3       priority: 2    state: READY   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 4       priority: 3    state: READY   CPU time remained: 1   IO time remained: 3    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+New processes arrive! Process 5       priority: 4    state: READY   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+Important processes!
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 0.0    average turnaround time: 0.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 1.0    average turnaround time: 1.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is running!
+Process 1       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 2.0    average turnaround time: 2.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is waiting for IO!
+Process 1       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 3.0    average turnaround time: 3.0   total waiting time: 0.0    average waiting time: 0.0
+
+This process is done!
+Process 1       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 4.0    average turnaround time: 4.0   total waiting time: 0.0    average waiting time: 0.0
+
+Redundant processes!
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 3   IO time remained: 4    total time remained: 7.0  total turnaround time: 5.0    average turnaround time: 5.0   total waiting time: 0.0    average waiting time: 1.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 6.0    average turnaround time: 3.0   total waiting time: 8.0    average waiting time: 2.0
+
+This process is running!
+Process 3       priority: 2    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 7.0    average turnaround time: 3.5   total waiting time: 16.0    average waiting time: 4.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 8.0    average turnaround time: 4.0   total waiting time: 24.0    average waiting time: 6.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 9.0    average turnaround time: 4.5   total waiting time: 32.0    average waiting time: 8.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 10.0    average turnaround time: 5.0   total waiting time: 40.0    average waiting time: 24.0
+
+This process is waiting for IO!
+Process 3       priority: 2    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 11.0    average turnaround time: 5.5   total waiting time: 48.0    average waiting time: 28.0
+
+This process is done!
+Process 3       priority: 2    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 12.0    average turnaround time: 6.0   total waiting time: 56.0    average waiting time: 32.0
+
+Redundant processes!
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 3   IO time remained: 1    total time remained: 4.0  total turnaround time: 13.0    average turnaround time: 6.5   total waiting time: 64.0    average waiting time: 36.0
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 14.0    average turnaround time: 4.666666666666667   total waiting time: 68.0    average waiting time: 22.666666666666668
+
+This process is running!
+Process 2       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 1    total time remained: 2.0  total turnaround time: 15.0    average turnaround time: 5.0   total waiting time: 72.0    average waiting time: 24.0
+
+This process is waiting for IO!
+Process 2       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 16.0    average turnaround time: 5.333333333333333   total waiting time: 76.0    average waiting time: 25.333333333333332
+
+This process is done!
+Process 2       priority: 1    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 17.0    average turnaround time: 5.666666666666667   total waiting time: 80.0    average waiting time: 26.666666666666668
+New process is born! Process 6       priority: 0    state: NEW   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New process is born! Process 7       priority: 1    state: NEW   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New process is born! Process 8       priority: 2    state: NEW   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New process is born! Process 9       priority: 3    state: NEW   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New process is born! Process 10       priority: 4    state: NEW   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New processes arrive! Process 6       priority: 0    state: READY   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New processes arrive! Process 7       priority: 1    state: READY   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New processes arrive! Process 8       priority: 2    state: READY   CPU time remained: 2   IO time remained: 4    total time remained: 6.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New processes arrive! Process 9       priority: 3    state: READY   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+New processes arrive! Process 10       priority: 4    state: READY   CPU time remained: 2   IO time remained: 1    total time remained: 3.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+Emergent processes!
+
+This process is running!
+Process 6       priority: 0    state: RUNNING   CPU time remained: 1   IO time remained: 4    total time remained: 5.0  total turnaround time: 18.0    average turnaround time: 6.0   total waiting time: 84.0    average waiting time: 31.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 4    total time remained: 4.0  total turnaround time: 19.0    average turnaround time: 6.333333333333333   total waiting time: 84.0    average waiting time: 42.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 3    total time remained: 3.0  total turnaround time: 20.0    average turnaround time: 6.666666666666667   total waiting time: 84.0    average waiting time: 42.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 21.0    average turnaround time: 7.0   total waiting time: 84.0    average waiting time: 30.0
+
+This process is waiting for IO!
+Process 6       priority: 0    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 22.0    average turnaround time: 7.333333333333333   total waiting time: 84.0    average waiting time: 30.0
+
+This process is done!
+Process 6       priority: 0    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 23.0    average turnaround time: 7.666666666666667   total waiting time: 84.0    average waiting time: 30.0
+
+Emergent processes!
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 4   IO time remained: 2    total time remained: 6.0  total turnaround time: 24.0    average turnaround time: 8.0   total waiting time: 84.0    average waiting time: 30.0
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 3   IO time remained: 2    total time remained: 5.0  total turnaround time: 25.0    average turnaround time: 6.25   total waiting time: 84.0    average waiting time: 84.0
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 2   IO time remained: 2    total time remained: 4.0  total turnaround time: 26.0    average turnaround time: 6.5   total waiting time: 84.0    average waiting time: 84.0
+
+This process is running!
+Process 9       priority: 3    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 27.0    average turnaround time: 6.75   total waiting time: 84.0    average waiting time: 84.0
+
+This process is waiting for IO!
+Process 9       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 28.0    average turnaround time: 7.0   total waiting time: 84.0    average waiting time: 84.0
+
+This process is waiting for IO!
+Process 9       priority: 3    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 29.0    average turnaround time: 7.25   total waiting time: 84.0    average waiting time: 84.0
+
+This process is done!
+Process 9       priority: 3    state: TERMINATED   CPU time remained: 0   IO time remained: 0    total time remained: 0.0  total turnaround time: 30.0    average turnaround time: 7.5   total waiting time: 84.0    average waiting time: 22.0
+
+Important processes!
+
+This process is running!
+Process 7       priority: 1    state: RUNNING   CPU time remained: 1   IO time remained: 2    total time remained: 3.0  total turnaround time: 31.0    average turnaround time: 7.75   total waiting time: 84.0    average waiting time: 22.0
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 2    total time remained: 2.0  total turnaround time: 32.0    average turnaround time: 6.4   total waiting time: 84.0    average waiting time: 84.0
+
+This process is waiting for IO!
+Process 7       priority: 1    state: WAITING_FOR_IO   CPU time remained: 0   IO time remained: 1    total time remained: 1.0  total turnaround time: 33.0    average turnaround time: 6.6   total waiting time: 84.0    average waiting time: 84.0
+
+Process finished with exit code -1
